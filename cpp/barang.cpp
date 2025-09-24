@@ -7,7 +7,7 @@ class barang : public produk // Class barang
 private: // Atribut
     string merek;
     int stok;
-    int tahunKeluaran;
+    int tahun;
 
 public:
     // Constructor
@@ -16,12 +16,12 @@ public:
     // Getter
     string getMerek() const { return this->merek; }
     int getStok() const { return this->stok; }
-    int getTahunKeluaran() const { return this->tahunKeluaran; }
+    int getTahun() const { return this->tahun; }
 
     // Setter
     void setMerek(string merek) { this->merek = merek; }
     void setStok(int stok) { this->stok = stok; }
-    void setTahunKeluaran(int tahun) { this->tahunKeluaran = tahun; }
+    void setTahun(int tahun) { this->tahun = tahun; }
 
     // Destructor
     ~barang() {}

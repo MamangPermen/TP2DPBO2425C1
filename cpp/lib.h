@@ -50,7 +50,7 @@ void addata()
     rt.setStok(stok);
 
     cout << " > Masukkan Tahun Produksi   : "; cin >> tahun;
-    rt.setTahunKeluaran(tahun);
+    rt.setTahun(tahun);
 
     cin.ignore();
     cout << " > Masukkan Seri/Model       : "; getline(cin, seri);
@@ -69,7 +69,7 @@ void addata()
     rt.setHarga(harga);
     rt.setStok(stok);
     rt.setMerek(merek);
-    rt.setTahunKeluaran(tahun);
+    rt.setTahun(tahun);
     rt.setSeri(seri);
     rt.setDaya(daya);
     rt.setFitur(fitur);
@@ -108,7 +108,7 @@ void showdata()
 
         if (brg.getNama().length() > lebar[2]) lebar[2] = brg.getNama().length();
 
-        int panjangTahun = to_string(brg.getTahunKeluaran()).length();
+        int panjangTahun = to_string(brg.getTahun()).length();
         if (panjangTahun > lebar[3]) lebar[3] = panjangTahun;
 
         if (brg.getSeri().length() > lebar[4]) lebar[4] = brg.getSeri().length();
@@ -149,7 +149,7 @@ void showdata()
         cout << "| " << padRight(x.getId(), lebar[0]) << " |"
              << " " << padRight(x.getMerek(), lebar[1]) << " |"
              << " " << padRight(x.getNama(), lebar[2]) << " |"
-             << " " << padRightInt(x.getTahunKeluaran(), lebar[3]) << " |"
+             << " " << padRightInt(x.getTahun(), lebar[3]) << " |"
              << " " << padRight(x.getSeri(), lebar[4]) << " |"
              << " " << padRightInt(x.getDaya(), lebar[5]) << " |"
              << " " << padRightInt(x.getHarga(), lebar[6]) << " |"

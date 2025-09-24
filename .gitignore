@@ -1,0 +1,13 @@
+*.exe
+*.class
+pycache/
+*.pyc
+*.session
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.js
+
+# php -S localhost:8000

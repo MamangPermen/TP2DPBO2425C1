@@ -3,6 +3,8 @@ require_once 'rumahtangga.php';
 require_once 'function.php';
 session_start();
 
+initAwal(); // Inisialisasi 5 data awal
+
 // FLASH MESSAGE
 if (isset($_SESSION['flash'])) {
     $pesan = $_SESSION['flash'];

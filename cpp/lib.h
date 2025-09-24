@@ -159,3 +159,38 @@ void showdata()
 
     cout << "+" << repeatChar('-', totalPanjang - 2) << "+" << endl; // Border bawah
 }
+
+void initAwal() // Inisialisasi 5 data awal
+{
+    if (!daftar.empty()) return; // Hindari duplikasi
+
+    rumahtangga rt1;
+    rt1.setId("RT001"); rt1.setNama("Kipas Angin"); rt1.setMerek("Miyako");
+    rt1.setHarga(250000); rt1.setStok(15); rt1.setTahun(2023);
+    rt1.setSeri("MYK-FAN23"); rt1.setDaya(45); rt1.setFitur("3 kecepatan, remote");
+    daftar.push_back(rt1);
+
+    rumahtangga rt2;
+    rt2.setId("RT002"); rt2.setNama("Setrika Philips"); rt2.setMerek("Philips");
+    rt2.setHarga(180000); rt2.setStok(8); rt2.setTahun(2022);
+    rt2.setSeri("HD1173"); rt2.setDaya(300); rt2.setFitur("Anti lengket, otomatis mati");
+    daftar.push_back(rt2);
+
+    rumahtangga rt3;
+    rt3.setId("RT003"); rt3.setNama("Blender Oxone"); rt3.setMerek("Oxone");
+    rt3.setHarga(320000); rt3.setStok(5); rt3.setTahun(2024);
+    rt3.setSeri("OX-228S"); rt3.setDaya(500); rt3.setFitur("5 kecepatan, tabung kaca");
+    daftar.push_back(rt3);
+
+    rumahtangga rt4;
+    rt4.setId("RT004"); rt4.setNama("Rice Cooker Maspion"); rt4.setMerek("Maspion");
+    rt4.setHarga(210000); rt4.setStok(12); rt4.setTahun(2023);
+    rt4.setSeri("MC-123"); rt4.setDaya(400); rt4.setFitur("1.8L, penghangat otomatis");
+    daftar.push_back(rt4);
+
+    rumahtangga rt5;
+    rt5.setId("RT005"); rt5.setNama("Vacuum Cleaner Sharp"); rt5.setMerek("Sharp");
+    rt5.setHarga(850000); rt5.setStok(3); rt5.setTahun(2024);
+    rt5.setSeri("EC-1234"); rt5.setDaya(800); rt5.setFitur("Tanpa kabel, hisap kuat");
+    daftar.push_back(rt5);
+}

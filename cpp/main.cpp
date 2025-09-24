@@ -2,6 +2,8 @@
 
 int main() // Main program
 {
+    initAwal(); // Inisialisasi 5 data awal
+
     int pilihan;
     do {
         cout << "=== Manajemen Barang Toko Ah Fung ===\n";

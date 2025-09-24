@@ -1,0 +1,22 @@
+1
+RT006
+Mouse
+Logitech
+350000
+23
+2018
+G304
+50
+Wireless, Enakeun
+1
+RT007
+VGA Card
+Nvidia
+4000000
+5
+2023
+RTX 4060
+160
+8GB VRAM
+2
+0

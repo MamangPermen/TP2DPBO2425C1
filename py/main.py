@@ -110,8 +110,27 @@ def showdata():
     # Print border bawah
     print("+" + repeat_char("-", total_panjang - 2) + "+")
 
+def init_awal(): # Inisialisasi 5 data awal
+    if daftar:
+        return
+    data_awal = [
+        ("RT001", "Kipas Angin Miyako", "Miyako", 250000, 15, 2023, "MYK-FAN23", 45, "3 kecepatan, remote"),
+        ("RT002", "Setrika Philips", "Philips", 180000, 8, 2022, "HD1173", 300, "Anti lengket, otomatis mati"),
+        ("RT003", "Blender Oxone", "Oxone", 320000, 5, 2024, "OX-228S", 500, "5 kecepatan, tabung kaca"),
+        ("RT004", "Rice Cooker Maspion", "Maspion", 210000, 12, 2023, "MC-123", 400, "1.8L, penghangat otomatis"),
+        ("RT005", "Vacuum Cleaner Sharp", "Sharp", 850000, 3, 2024, "EC-1234", 800, "Tanpa kabel, hisap kuat")
+    ]
+    for d in data_awal:
+        rt = RumahTangga()
+        rt.set_id(d[0]); rt.set_nama(d[1]); rt.set_merek(d[2])
+        rt.set_harga(d[3]); rt.set_stok(d[4]); rt.set_tahun(d[5])
+        rt.set_seri(d[6]); rt.set_daya(d[7]); rt.set_fitur(d[8])
+        daftar.append(rt)
+
 # === PROGRAM UTAMA ===
 def main():
+    init_awal() # Inisialisasi 5 data awal
+
     while True:
         print("\n=== MENU TOKO ELEKTRONIK Ah Fung ===")
         print("1. Tambah barang")

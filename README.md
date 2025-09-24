@@ -66,6 +66,8 @@ Merepresentasikan produk rumah tangga dengan detail tambahan:
 ---
 ## 📊 Diagram
 
+![alt text](https://github.com/MamangPermen/TP2DPBO2425C1/blob/main/Screenshots/diagram.png)
+
 ---
 
 ## ⚙️ Alur Program
@@ -93,3 +95,21 @@ Merepresentasikan produk rumah tangga dengan detail tambahan:
 ---
 
 ## 🖥️Dokumentasi
+1. **C++**
+![alt text](https://github.com/MamangPermen/TP2DPBO2425C1/blob/main/Screenshots/cpp.png)
+
+---
+
+2. **Java**
+![alt text](https://github.com/MamangPermen/TP2DPBO2425C1/blob/main/Screenshots/java.png)
+
+---
+
+3. **Python**
+![alt text](https://github.com/MamangPermen/TP2DPBO2425C1/blob/main/Screenshots/python.png)
+
+---
+
+3. **PHP**
+![alt text](https://github.com/MamangPermen/TP2DPBO2425C1/blob/main/Screenshots/php1.png)
+![alt text](https://github.com/MamangPermen/TP2DPBO2425C1/blob/main/Screenshots/php2.png)
